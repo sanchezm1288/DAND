@@ -1,23 +1,19 @@
-This folder contains files for P0: Analyze Bay Area Bike Share Data.
+# Bay Area Bike Share Analysis
+This project is an assignment of the Udacity [Nanodegree Data Analyst](https://www.udacity.com/course/data-analyst-nanodegree--nd002).
 
-Bay\_Area\_Bike\_Share\_Analysis.ipynb - Main project file.
+##Project Overview
+Bay Area Bike Share is a company that provides on-demand bike rentals for customers in San Francisco, Redwood City, Palo Alto, Mountain View, and San Jose. Users can unlock bikes from a variety of stations throughout each city, and return them to any station within the same city. Users pay for the service either through a yearly subscription or by purchasing 3-day or 24-hour passes. Users can make an unlimited number of trips, with trips under thirty minutes in length having no additional charge; longer trips will incur overtime fees.
+The data can be found [here](http://www.bayareabikeshare.com/open-data).
 
-babs\_datacheck.py; babs\_visualizations.py - Supplemental scripts for checking
-data wrangling, reporting of basic statistics, and creation of exploratory bar
-charts and histograms.
+This is **my first** data analysis with _python_. So the project starts with first thoughts and questions about the data and then answers those questions with help of _pandas_ and _numpy_
 
-Data is split among twelve other files, organized into three sets of four files
-each. Prefixing each set is one of three datestamps, showing the end month for
-each data collection period (201402, 201408, 201508). Suffixes for each file
-indicate contents:
+##Run
+You can run the .ipynb file with the [python notebook](https://ipython.org/notebook.html).
+Those libraries are used:
+- pandas
+- numpy
 
-\*\_README.txt - Information about contents of data files.
+##Data
+The data used is provided in this project folder.
+ 
 
-\*\_station\_data.csv - Basic information about station locations and
-capacities.
-
-\*\_trip\_data.csv - Information about each trip taken using the bike share
-system.
-
-\*\_weather\_data.csv - Weather information by day for one station in each
-city in the bike share program.
