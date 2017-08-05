@@ -1,2 +1,0 @@
-# DAND
-Data Analyst ND
