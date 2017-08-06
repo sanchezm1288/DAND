@@ -6,12 +6,6 @@ The data can be found [here](http://www.bayareabikeshare.com/open-data).
 
 This project explores data science with first thoughts and questions about the data evaluation and then answers those questions with help of _pandas_ and _numpy_
 
-##Run
-You can run the .ipynb file with the [python notebook](https://ipython.org/notebook.html).
-Those libraries are used:
-- pandas
-- numpy
-
 ##Data
 The data used is provided in this project folder.
  
